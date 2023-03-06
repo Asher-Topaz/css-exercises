@@ -1,9 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
 .c1,
 .c2 {
     background-color: darksalmon;
-    font-family: sans-serif;
+   
 }
 
 .c2 {
     font-size: 30px;
+}
+
+
+#d1,
+#d2 {
+    font-size: 30px;
+}
+#d1 {
+     color:blue;
+     
+}
+
+#d2 {
+    background-color: rgb(79, 226, 79);
+
 }
