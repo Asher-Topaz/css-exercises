@@ -25,3 +25,54 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content:space-between;
+
+}
+
+ul {
+
+  list-style-type:none;
+  display:flex;
+  gap:16px;
+ 
+}
+
+
+
+.content {
+  
+  flex:1;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right-links {
+
+  margin-left: auto;
+}
+
+.footer {
+
+  display: flex;
+  background: #eee;
+  padding:1;
+  
+  
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+}
+
+
